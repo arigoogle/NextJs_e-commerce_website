@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>2022 Peralta Finch All rights reserverd</p>
-      <p className="icons">
+      {/* <p className="icons">
         <AiFillLinkedin
           className="cursor-pointer"
           onClick={() => {
@@ -35,7 +35,7 @@ const Footer = () => {
             window.open("https://github.com/WebDevVikramChoudhary");
           }}
         />
-      </p>
+      </p> */}
     </div>
   );
 };
